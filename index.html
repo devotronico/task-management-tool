@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task-Management-Tool</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col list">
+        <p class="list-title">TITOLO A</p>
+        <div class="list-cards">
+          <div class="draggable" draggable="true">1</div>
+        </div>
+        <button class="btn-add-card">Add Card</button>
+      </div>
+      <div class="col list">
+        <p class="list-title">TITOLO B</p>
+        <div class="list-cards"></div>
+        <button class="btn-add-card">Add Card</button>
+      </div>
+      <div class="col list list-add">
+        <button id="btn-add-list">Add List</button>
+      </div>
+    </div>
+    <div id="info-container">
+      <div id="info-wrapper">
+        <div id="info-content"></div>
+        <textarea id="textarea-descr"></textarea>
+        <button id="btn-desc">Save</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
